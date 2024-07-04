@@ -1,0 +1,1172 @@
+.modal-form.add-note .content {
+    width: 1300px;
+    height: 560px;
+    margin-top: -30px;
+}
+
+
+.modal-form.add-note .content .top-1 {
+    width: 100%;
+    height: 35px;
+    background: #f1f3F3;
+    padding: 5px 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.modal-form.add-note .content .body-1 {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.modal-form.add-note .content .body-1 .col {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    background: #5eadd2;
+    border-radius: 10px;
+    overflow: hidden;
+    z-index: .9;
+}
+
+.modal-form.add-note .content .body-1 .col .finish {
+    position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #000000cf;
+}
+
+.modal-form.add-note .content .body-1 .col .top-2 {
+    width: 100%;
+  height: 35px;
+}
+
+.modal-form.add-note .content .body-1 .col .top-2 .title {
+    width: 100%;
+    height: 100%;
+    background: #458093;
+    padding: 7px 20px;
+}
+
+.modal-form.add-note .content .body-1 .col .top-2 .title h3 {
+    font-size: 16px;
+    font-weight: 700;
+    color: #94cad2;
+}
+
+.modal-form.add-note .content .body-1 .col .body-2 {
+    width: 100%;
+    height: 100%;
+}
+
+.modal-form.add-note .content .body-1 .col.active {
+    width: 350px;
+    height: 400px;
+    box-shadow: 0 0 10px rgb(84, 84, 87);
+}
+
+.modal-form.add-note .content .body-1 .col .loader {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #00000059;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-form.add-note .content .body-1 .col .loader .cercle {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 4px solid #458093;
+    z-index: 1;
+    animation: rotate 1s infinite;
+    box-shadow: rgb(0, 0, .5);
+}
+
+.modal-form.add-note .content .body-1 .col.active .body-2 {
+    width: 100%;
+  height: 100%;
+}
+
+.modal-form.add-note .content .body-1 .col.active .body-2 .slides {
+    width: 100%;
+  height: 100%;
+  padding: 20px;
+  padding-top: 40px;
+  overflow-y: auto;
+  scrollbar-width: none;
+}
+
+.modal-form.add-note .content .body-1 .col.active .body-2 .slides a.slide {
+    position: relative;
+  width: 100%;
+  height: 30px;
+  background: #458093;
+  display: block;
+  margin-bottom: 10px;
+  padding: 5px 15px;
+  color: #dbffff;
+  text-decoration: none;
+  border-radius: 6px;
+  font-size: 12px;
+}
+
+.modal-form.add-note .content .body-1 .col .body-2 .slides {
+    width: 100%;
+  height: 82%;
+  padding: 10px;
+  padding-top: 30px;
+}
+
+.modal-form.add-note .content .body-1 .col .body-2 .slides .slide {
+    width: 100%;
+    height: 30px;
+    background: #458093;
+    display: block;
+    margin-bottom: 10px;
+    padding: 5px 15px;
+    color: #dbffff;
+    border-radius: 6px;
+    font-size: 12px;
+}
+
+.modal-form.add-note .content .body-1 .col .body-2 .user {
+    width: 100%;
+    height: 100%;
+    margin-top: 20px;
+}
+
+.modal-form.add-note .content .body-1 .col .body-2 .user .image {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+}
+
+.modal-form.add-note .content .body-1 .col .body-2 .user .image i {
+    width: 50px;
+    height: 50px;
+    background: #dbffff;
+    color: #080808;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}
+
+.modal-form.add-note .content .body-1 .col .body-2 .user .detail {
+    width: 100%;
+    height: 100%;
+    margin-top: 10px;
+    padding: 0 10px;
+}
+
+.modal-form.add-note .content .body-1 .col .body-2 .user .detail .name,
+.modal-form.add-note .content .body-1 .col .body-2 .user .detail .number {
+    width: 100%;
+    height: 25px;
+    margin-bottom: 10px;
+}
+
+.modal-form.add-note .content .body-1 .col .body-2 .user .detail .name h4 {
+    font-size: 14px;
+}
+
+.modal-form.add-note .content .body-1 .col .body-2 .user .detail .number span {
+    font-size: 12px;
+}
+
+.modal-form.add-note .content .body-1 .col.active .search {
+    width: 100%;
+    height: 40px;
+    margin-top: 20px;
+}
+
+.modal-form.add-note .content .body-1 .col.active .search .form-input {
+    position: relative;
+   width: 100%;
+   height: 100%;
+   padding: 5px 10px;
+}
+
+.modal-form.add-note .content .body-1 .col.active .search .form-input input {
+    width: 100%;
+    height: 100%;
+    border: 1px solid #458093;
+    background: none;
+    padding: 5px 15px;
+    border-radius: 6px;
+    font-size: 12px;
+    outline: none;
+}
+
+.modal-form.add-note .content .body-1 .col.active .search .form-input i {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 50px;
+    height: 100%;
+    background: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #458093;
+    font-size: 12px;
+}
+
+.modal-form.add-note .content .body-1 .col.active .details {
+    width: 100%;
+    height: 100%;
+}
+
+.modal-form.add-note .content .body-1 .col.active .details .slides {
+    width: 100%;
+    height: 100%;
+    padding-top: 10px;
+    margin-top: 20px;
+}
+
+.modal-form.add-note .content .body-1 .col.active .details .slides a.user {
+    width: 100%;
+    height: 80px;
+    background: #458093;
+    display: flex;
+    gap: 20px;
+    text-decoration: none;
+    color: #080808;
+    border-radius: 10PX;
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+
+.modal-form.add-note .content .body-1 .col.active .details .slides a.user .left-1 {
+    width: 25%;
+    height: 100%;
+}
+
+.modal-form.add-note .content .body-1 .col.active .details .slides a.user .left-1 .image {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #dbffff;
+    font-size: 20px;
+    color: gray;
+}
+
+.modal-form.add-note .content .body-1 .col.active .details .slides a.user .right-1 {
+    width: 75%;
+    height: 100%;
+    padding: 5px 10px;
+}
+
+.modal-form.add-note .content .body-1 .col.active .details .slides a.user .right-1 .name,
+.modal-form.add-note .content .body-1 .col.active .details .slides a.user .right-1 .number {
+    width: 100%;
+    height: 25px;
+    margin-bottom: 10px;
+}
+
+.modal-form.add-note .content .body-1 .col.active .details .slides a.user .right-1 .name h4 {
+    font-size: 14px;
+}
+
+.modal-form.add-note .content .body-1 .col.active .details .slides a.user .right-1 .number span {
+    font-size: 12px;
+}
+
+.right .container {
+    width: 100%;
+}
+
+.right .container .row {
+    width: 100%;
+    height: 100%;
+}
+
+.right .container .row.one {
+    height: 250px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #f1f3F3;
+    gap: 30px;
+}
+
+.right .container .row.one a.link {
+    width: 180px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #458093;
+    border: none;
+    text-decoration: none;
+    border-radius: 20px;
+    color: #f1f3F3;
+    font-size: 18px;
+}
+
+.box-one {
+    width: 100%;
+    height: 200px;
+}
+
+.box-one .classe-detail {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    gap: 50px;
+    border: 2px solid #f1f3F3;
+    border-radius: 20px;
+    padding: 10px 20px;
+}
+
+.box-one .classe-detail .left-2,
+.box-one .classe-detail .right-2 {
+    width: 30%;
+    height: 100%;
+}
+
+.box-one .classe-detail .left-2 .name,
+.box-one .classe-detail .left-2 .number,
+.box-one .classe-detail .right-2 .name,
+.box-one .classe-detail .right-2 .number {
+    width: 100%;
+    height: 30px;
+    background: #458093;
+    margin-bottom: 10px;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+
+.box-one .classe-detail .left-2 .name h4,
+.box-one .classe-detail .right-2 .name h4 {
+    font-size: 14px;
+}
+
+.box-one .classe-detail .left-2 .number p,
+.box-one .classe-detail .right-2 .number p {
+    font-size: 12px;
+}
+
+.box-one .classe-detail .right-2 .name h5 {
+    font-size: 12px;
+}
+
+.box-one-1.top-notes {
+    height: 200px;
+}
+
+.box-one-1.top-notes a.link {
+    gap: 10px;
+}
+
+.box-one-1.top-notes a.link i {
+    font-size: 20px;
+}
+
+.box-one-1.top-notes a.link span {
+    font-size: 14px;
+}
+ 
+
+.box-one-1 {
+    height: 250px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #f1f3F3;
+    gap: 30px;
+}
+
+.box-one-1 a.link {
+    width: 180px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #458093;
+    border: none;
+    text-decoration: none;
+    border-radius: 20px;
+    color: #f1f3F3;
+    font-size: 18px;
+}
+
+.box-one-2 {
+    width: 100%;
+    height: 500px;
+    border-radius: 20px;
+    padding: 10px 20px;
+    border: 2px solid #f1f3f3;
+}
+
+.box-one-2.top-student {
+    height: 300px;
+    background: none;
+}
+
+.box-one-2.top-student .body-1 {
+    height: 200px;
+    margin-top: 30px;
+}
+
+.box-one-2.top-student .body-1 .childs {
+    width: 100%;
+    height: 100%;
+}
+
+.box-one-2.top-student .body-1 .childs .top-2 {
+    width: 100%;
+    height: 30px;
+}
+
+.box-one-2.top-student .body-1 .childs .top-2 .title {
+    width: 100%;
+    height: 100%;
+}
+
+.box-one-2.top-student .body-1 .childs .top-2 .title h3 {
+    font-size: 16px;
+    font-weight: 600;
+    color: #458093;
+}
+
+.box-one-2.top-student .body-1 .childs .body-2 {
+    width: 100%;
+    height: 70%;
+    margin-top: 10px;
+    display: flex;
+    gap: 20px;
+    padding: 0;
+    border-radius: 0;
+    padding-left: 30px;
+}
+
+.box-one-2.top-student .body-1 .childs .body-2 .col {
+    width: 200px;
+    height: 100%;
+    background: #458093;
+    padding: 10px;
+    color: #f1f3F3;
+    border-radius: 10px;
+}
+
+.box-one-2.top-student .body-1 .childs .body-2 .col .title {
+    width: 100%;
+    height: 20px;
+}
+
+.box-one-2.top-student .body-1 .childs .body-2 .col .title h4 {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.box-one-2.top-student .body-1 .childs .body-2 .col .number {
+    width: 100%;
+    height: 0px;
+    margin-top: 20px;
+}
+
+.box-one-2.top-student .body-1 .childs .body-2 .col .number span {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.box-one-2 .matieres {
+    width: 100%;
+    height: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 20px;
+    padding: 10px 0;
+}
+
+.box-one-2 .matieres .matiere {
+    width: 120px;
+    height: 40px;
+    background: #458093;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+}
+
+.box-one-2 .top-1,
+.box-one-2.body-notes .top-2 {
+    width: 100%;
+    height: 30px;
+}
+
+.box-one-2 .top-1 .title,
+.box-one-2.body-notes .top-2 .title {
+    width: 100%;
+    height: 100%;
+    background: #f1f3F3;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+
+.box-one-2 .top-1 .title h3 {
+    font-size: 14px;
+}
+
+.box-one-2 .body-1,
+.box-one-2 .body-2 {
+    width: 100%;
+    height: 170px;
+    background: #f1f3F3;
+    margin-top: 20px;
+    border-radius: 5px;
+    padding: 10px 20px;
+}
+
+.box-one-2 .body-1 .col-one {
+    width: 100%;
+    height: 100%;
+}
+
+.box-one-2 .body-1 .col-one .name,
+.box-one-2 .body-1 .col-one .date {
+    width: 100%;
+    height: 30px;
+    margin-bottom: 10px;
+}
+
+.box-one-2 .body-1 .col-one .name h4 {
+    font-size: 14px;
+}
+
+.box-one-2 .body-1 .col-one .date p {
+    font-size: 12px;
+}
+
+.box-one-2 .body-2 {
+    height: 200px;
+}
+
+.box-two {
+    width: 100%;
+    height: 500px;
+    border: 2px solid #f1f3F3;
+    border-radius: 20px;
+    padding: 10px 20px;
+}
+
+.box-two .top-1 {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 20px;
+}
+
+.box-two .top-1 .search {
+    width: 50%;
+    height: 80%;
+    display: flex;
+    gap: 20px;
+}
+
+.box-two .top-1 .search .form-input {
+    width: 80%;
+    height: 100%;
+}
+
+.box-two .top-1 .search .form-input input {
+    width: 100%;
+    height: 100%;
+    background: none;
+    outline: none;
+    border: 2px solid #f1f3F3;
+    border-radius: 10px;
+    padding: 5px 10px;
+}
+
+.box-two .top-1 .search .form-button {
+    width: 20%;
+    height: 100%;
+}
+
+.box-two .top-1 .search .form-button button {
+    width: 50px;
+    height: 100%;
+    background: #458093;
+    border: none;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    color: #f1f3F3;
+}
+
+.box-two .top-1 .filter {
+    width: 20%;
+    height: 80%;
+}
+
+.box-two .top-1 .filter .select {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.box-two .top-1 .filter .select select {
+    width: 80%;
+    height: 90%;
+    background: #458093;
+    border: none;
+    border-radius: 10px;
+    padding: 5px 20px;
+    cursor: pointer;
+}
+
+.box-two .body-1 {
+    width: 100%;
+    height: 400px;
+    margin-top: 20px;
+}
+
+.box-two .body-1 .classes {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    overflow-y: auto;
+    scrollbar-width: none;
+}
+
+.box-two .body-1 .classes::-webkit-scrollbars {
+    display: none;
+}
+
+.box-two .body-1 .classes .classe {
+    width: 240px;
+    height: 100px;
+    display: flex;
+    gap: 20px;
+    background: #458093;
+    border-radius: 15px;
+    text-decoration: none;
+    color: #080808;
+    padding: 10px 20px;
+}
+
+.box-two .body-1 .classes .classe .left-1 {
+    width: 70%;
+    height: 100%;
+    background: #f1f3F3;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.box-two .body-1 .classes .classe .left-1 .name {
+    width: 100%;
+    height: 30px;
+    margin-bottom: 20px;
+}
+
+.box-two .body-1 .classes .classe .left-1 .name h4 {
+    font-size: 16px;
+}
+
+.box-two .body-1 .classes .classe .right-1 {
+    width: 30%;
+    height: 100%;
+    border-radius: 5px;
+    padding: 5px;
+    background: #f1f3F3;
+}
+
+.box-two .body-1 .classes .classe .right-1 .number {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-two .body-1 .classes .classe .right-1 .number p {
+    font-size: 14px;
+}
+
+.box-two-1 {
+    width: 100%;
+    height: 600px;
+    border: 2px solid #f1f3F3;
+    border-radius: 20px;
+    padding: 10px 20px;
+}
+
+.box-two-1 .top-3 {
+    width: 100%;
+    height: 40px;
+    background: #458093;
+    display: flex;
+    gap: 20px;
+    border-radius: 10px;
+    padding: 5px 10px;
+}
+
+.box-two-1 .top-3 .image,
+.box-two-1 .top-3 .number,
+.box-two-1 .top-3 .name,
+.box-two-1 .top-3 .sexe,
+.box-two-1 .top-3 .date {
+    height: 100%;
+    background: #f1f3F3;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.box-two-1 .top-3 .number,
+.box-two-1 .top-3 .name,
+.box-two-1 .top-3 .sexe,
+.box-two-1 .top-3 .date {
+    font-size: 14px;
+}
+
+.box-two-1 .top-3 .image {
+    width: 5%;
+}
+
+.box-two-1 .top-3 .number {
+    width: 15%;
+}
+
+.box-two-1 .top-3 .name {
+    width: 35%;
+}
+
+.box-two-1 .top-3 .sexe {
+    width: 15%;
+}
+
+.box-two-1 .top-3 .date {
+    width: 15%;
+}
+
+.box-two-1 .students {
+    width: 100%;
+    height: 85%;
+    display: inline-block;
+    overflow-y: auto;
+    scrollbar-width: none;
+    margin-top: 20px;
+}
+
+.box-two-1 .students::-webkit-scrollbars {
+    display: none;
+}
+
+.box-two-1 .students a.student {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    gap: 20px;
+    background: #458093;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    padding: 5px 10px;
+    text-decoration: none;
+    color: #080808;
+    transition: .5s ease;
+}
+
+.box-two-1 .students a.student:hover {
+    border: 3px solid #080808
+}
+
+.box-two-1 .students a.student .image {
+    width: 50px;
+    height: 100%;
+    background: #f1f3F3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.box-two-1 .students a.student .number {
+    width: 15%;
+    height: 100%;
+    background: #f1f3F3;
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+    border-radius: 5px;
+}
+
+.box-two-1 .students a.student .name {
+    width: 35%;
+    height: 100%;
+    background: #f1f3F3;
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+    border-radius: 5px;
+}
+
+.box-two-1 .students a.student .sexe {
+    width: 15%;
+    height: 100%;
+    background: #f1f3F3;
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+    border-radius: 5px;
+}
+
+.box-two-1 .students a.student .date {
+    width: 15%;
+    height: 100%;
+    background: #f1f3F3;
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+    border-radius: 5px;
+}
+
+.box-two-1.body-student {
+    height: 950px;
+}
+
+.box-two-1.body-student .top-1,
+.box-two-2.body-notes .top-1 {
+    position: relative;
+    width: 100%;
+    height: 35px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.box-two-1.body-student .top-1::after {
+    position: absolute;
+    content: "";
+    top: 120%;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 4px;
+    background: #458093;
+    box-shadow: 0 0 50px rgb(193, 193, 193);
+}
+
+.box-two-1.body-student .top-1 .search {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    gap: 20px;
+}
+
+.box-two-1.body-student .top-1 .search .form-input {
+    width: 70%;
+    height: 100%;
+}
+
+.box-two-1.body-student .top-1 .search .form-input input {
+    width: 100%;
+    height: 100%;
+    border: 2px solid #5eadd2;
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+    color: #458093;
+    font-size: 12px;
+    outline: none;
+    background: none;
+    border-radius: 6px;
+}
+
+.box-two-1.body-student .top-1 .search .form-button {
+    width: 10%;
+    height: 100%;
+}
+
+.box-two-1.body-student .top-1 .search .form-button button {
+    width: 100%;
+    height: 100%;
+    border: 2px solid #5eadd2;
+    border-radius: 6px;
+    background: none;
+    cursor: pointer;
+    transition: .5s ease-in;
+}
+
+.box-two-1.body-student .top-1 .filter {
+    width: 30%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.box-two-1.body-student .top-1 .filter .form-label {
+    width: 40%;
+    height: 100%;
+}
+
+.box-two-1.body-student .top-1 .filter .label h4 {
+    font-size: 14px;
+    font-weight: 700;
+    color: #458093;
+}
+
+.box-two-1.body-student .top-1 .filter .select {
+    width: 180px;
+    height: 100%;
+}
+
+.box-two-1.body-student .top-1 .filter .select select {
+    width: 100%;
+    height: 100%;
+    background: none;
+    border: 2px solid #5eadd2;
+    border-radius: 6px;
+    color: #458093;
+    padding: 5px 10px;
+}
+
+.box-two-1.body-student .body-1 {
+    width: 100%;
+    height: 92%;
+    margin-top: 40px;
+}
+
+.box-two-1.body-student .body-1 .slides {
+    width: 100%;
+    height: 75%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    overflow-x: auto;
+    scrollbar-width: none;
+}
+
+.box-two-1.body-student .body-1 .slides a.slide {
+    width: 220px;
+    height: 310px;
+    background: #458093;
+    padding: 5px;
+    text-decoration: none;
+    color: #080808;
+    border-radius: 10px;
+}
+
+.box-two-1.body-student .body-1 .slides a.slide .image {
+    width: 100%;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box-two-1.body-student .body-1 .slides a.slide .image img {
+    width: 120px;
+    height: 120px;
+    border-radius: 10px;
+}
+
+.box-two-1.body-student .body-1 .slides a.slide .detail {
+    width: 100%;
+  height: 50%;
+  background: #5eadd2;
+  border-radius: 6px;
+}
+
+.box-two-1.body-student .body-1 .slides a.slide .detail .name,
+.box-two-1.body-student .body-1 .slides a.slide .detail .sexe {
+    width: 100%;
+    height: 25px;
+    margin-bottom: 10px;
+    padding: 5px 15px;
+}
+
+.box-two-1.body-student .body-1 .pagination {
+    position: relative;
+  width: 100%;
+  height: 30px;
+  margin-top: 30px;
+}
+
+.box-two-1.body-student .body-1 .pagination .pags {
+    width: auto;
+  min-width: 100px;
+  height: 100%;
+  position: absolute;
+  right: 0;
+}
+
+.box-two-1.body-student .body-1 .pagination .pags button.pag {
+    width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: #458093;
+  border: none;
+  cursor: pointer;
+  transition: .5s ease-in;
+}
+
+.box-two-1.body-student .body-1 .pagination .pags button.pag.active,
+.box-two-1.body-student .body-1 .pagination .pags button.pag:hover {
+    background: #5eadd2;
+  border: 1px solid #94cad2;
+}
+
+.box-two-2.body-notes {
+    width: 100%;
+    height: 600px;
+    border: 2px solid #f1f3F3;
+    border-radius: 20px;
+    padding: 10px 20px;
+}
+
+.box-two-2.body-notes .row-1 {
+    width: 100%;
+    height: 40%;
+}
+
+.box-two-2.body-notes .row-1 .top-1 {
+    width: 100%;
+    height: 30px;
+}
+
+.box-two-2.body-notes .row-1 .top-1 .title {
+    width: 100%;
+  height: 100%;
+  background: #f1f3F3;
+  color: #458093;
+  border-radius: 5px;
+  padding: 5px 10px;
+}
+
+.box-two-2.body-notes .row-1 .top-1 .title h3 {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.box-two-2.body-notes .row-1 .body-1 {
+    width: 100%;
+    height: 280px;
+    margin-top: 20px;
+}
+
+.box-two-2.body-notes .row-1 .body-1 .slides {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    overflow: auto;
+    scrollbar-width: none;
+}
+
+.box-two-2.body-notes .row-1 .body-1 .slides::-webkit-scrollbars {
+    display: none;
+}
+
+.box-two-2.body-notes .row-1 .body-1 .slides a.slide {
+    width: 200px;
+    height: 120px;
+    background: #458093;
+    padding: 5px 10px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: #080808;
+    transition: .5s ease-in;
+}
+
+.box-two-2.body-notes .row-1 .body-1 .slides a.slide:hover {
+    background: #5eadd2;
+}
+
+.box-two-2.body-notes .row-1 .body-1 .slides a.slide .name,
+.box-two-2.body-notes .row-1 .body-1 .slides a.slide .date {
+    width: 100%;
+    height: 25px;
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+.box-two-2.body-notes .row-1 .body-1 .slides a.slide .date span {
+    font-size: 12px;
+}
+
+.box-true {
+    width: 100%;
+    height: 500px;
+    border: 2px solid #f1f3F3;
+    border-radius: 20px;
+    padding: 15px 20px;
+}
+
+.box-true .examens {
+    width: 100%;
+    height: 92%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    overflow-y: auto;
+    scrollbar-width: none;
+}
+
+.box-true .examens::-webkit-scrollbars {
+    display: none;
+}
+
+.box-true .examens a.examen {
+    width: 250px;
+    height: 100px;
+    background: #458093;
+    border-radius: 10px;
+    text-decoration: none;
+    color: #080808;
+    padding: 5px 10px;
+    display: flex;
+    gap: 10px;
+}
+
+.box-true .examens a.examen:hover {
+    border: 2px solid #080808;
+}
+
+.box-true .examens a.examen .left-3,
+.box-true .examens a.examen .right-3 {
+    width: 50%;
+    height: 100%;
+}
+
+.box-true .examens a.examen .left-3 .name,
+.box-true .examens a.examen .right-3 .date {
+    width: 100%;
+    height: 30px;
+    background: #f1f3F3;
+    margin-bottom: 10px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.box-true .examens a.examen .left-3 .name h4 {
+    font-size: 14px;
+}
+
+.box-true .examens a.examen .right-3 .date p {
+    font-size: 12px;
+}

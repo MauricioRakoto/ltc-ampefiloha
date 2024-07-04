@@ -1,0 +1,1673 @@
+.modal-add {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #08080894;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.modal-add .content-modal,
+.modal-add .content-modal-1 {
+    width: 900PX;
+    height: 550px;
+    background: #b2ddec;
+    margin-top: 50px;
+    border-radius: 15px;
+    overflow: hidden;
+    padding: 0;
+}
+
+.modal-add .content-modal .top {
+    position: relative;
+    width: 100%;
+    height: 35px;
+    background: #f3f1f1;
+    display: flex;
+    padding: 5px 10px;
+}
+
+.modal-add .content-modal .top .close,
+.modal-add .content-modal-1 .top .close {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-top: 5px;
+    margin-right: 10px;
+}
+
+.modal-add .content-modal .top .close a,
+.modal-add .content-modal-1 .top .close a {
+    text-decoration: none;
+    color: #080808;
+    font-size: 12px;
+}
+
+.modal-add .content-modal .body {
+    width: 95%;
+    height: 430px;
+    background: #408071;
+    display: flex;
+    gap: 20px;
+    border-radius: 15px;
+    overflow: hidden;
+    margin: 0 20px;
+    margin-top: 40px;
+}
+
+.modal-add .content-modal .body .left-5 {
+    width: 40%;
+    height: 100%;
+}
+
+.modal-add .content-modal .body .left-5 .image {
+    width: 100%;
+    height: 100%;
+    background: url(../../images/bg-livre2.jpg);
+}
+
+.modal-add .content-modal .body .right-5 {
+    width: 60%;
+    height: 100%;
+    padding-top: 20px;
+}
+
+.modal-add .content-modal .body .right-5 form .form-group {
+    width: 90%;
+    height: 60px;
+    margin-bottom: 20px;
+    display: grid;
+}
+
+.modal-add .content-modal .body .right-5 form .form-group .form-label {
+    width: 100%;
+    height: 20px;
+}
+
+.modal-add .content-modal .body .right-5 form .form-group .form-input,
+.modal-add .content-modal .body .right-5 form .form-group .form-select {
+    width: 100%;
+    height: 30px;
+    margin-top: 10px;
+}
+
+.modal-add .content-modal .body .right-5 form .form-group .form-input input,
+.modal-add .content-modal .body .right-5 form .form-group .form-select select {
+    width: 100%;
+    height: 30px;
+    background: transparent;
+    border: 2px solid #f3f1f1;
+    outline: none;
+    border-radius: 10px;
+    padding: 5px 20px;
+}
+
+.modal-add .content-modal .body .right-5 form .form-group.submit {
+    margin-top: 20px;
+}
+
+.modal-add .content-modal .body .right-5 form .form-group.submit button {
+    width: 100%;
+  height: 80%;
+  background: #5eadd2;
+  color: #f1f3f3;
+  border: none;
+  border-radius: 15px;
+}
+
+.modal-add .content-modal-1 {
+    width: 950px;
+    height: 800px;
+    padding: 0;
+}
+
+.modal-add .content-modal-1 .top {
+    position: relative;
+    width: 100%;
+    height: 35px;
+    background: #f3f1f1;
+    display: flex;
+    padding: 5px 10px;
+}
+
+.modal-add .content-modal-1 .top .close a.return-2 {
+    margin-right: 30px;
+    font-size: 12px;
+}
+
+
+.modal-add .content-modal-1 .body {
+    margin-top: 30px;
+    width: 100%;
+    height: 80%;
+    display: flex;
+    gap: 30px;
+    padding: 0 20px;
+}
+
+.modal-add .content-modal-1 .body .col {
+    width: 250px;
+    height: 250px;
+    position: relative;
+    background: #5b96ae;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.modal-add .content-modal-1 .body .col::after {
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 100%;
+    background: white;
+    top: 0;
+    left: 0;
+    opacity: .7;
+}
+
+.modal-add .content-modal-1 .body .col.active::after {
+    background: transparent;
+    width: 0;
+    height: 0;
+}
+
+.modal-add .content-modal-1 .body .col .body-active {
+    margin-top: 20px;
+    width: 100%;
+    height: 100%;
+}
+
+.modal-add .content-modal-1 .body .col .body-active .search {
+    width: 100%;
+    height: 40px;
+    display: flex;
+    gap: 10px;
+    padding: 5px 10px;
+}
+
+.modal-add .content-modal-1 .body .col .body-active .search .form-input {
+    width: 80%;
+}
+
+.modal-add .content-modal-1 .body .col .body-active .search .form-input input {
+    width: 100%;
+    height: 100%;
+    background: none;
+    border: 2px solid #f3f1f1;
+    padding: 5px 20px;
+    border-radius: 5px;
+}
+
+.modal-add .content-modal-1 .body .col .body-active .search .form-button {
+    width: 20%;
+}
+
+.modal-add .content-modal-1 .body .col .body-active .search .form-button button {
+    width: 100%;
+    height: 100%;
+    background: #080808;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    color: white;
+}
+
+.modal-add .content-modal-1 .body .col .body-active .body-1 {
+    width: 100%;
+    height: 100%;
+    margin-top: 30px;
+    padding: 0 10px;
+}
+
+.modal-add .content-modal-1 .body .col-no-active .body-active .body-1 .slides {
+    width: 100%;
+    height: 77%;
+    overflow-y: auto;
+    background: green;
+}
+
+.modal-add .content-modal-1 .body .col .body-active .body-1 .slides a.slide {
+    width: 100%;
+    height: 100px;
+    background: #408071;
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+    text-decoration: none;
+    color: #080808;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.modal-add .content-modal-1 .body .col .body-active .body-1 .slides a.slide:hover {
+    border: 2px solid #f1f3f3;
+}
+
+.modal-add .content-modal-1 .body .col .body-active .body-1 .slides a.slide .left {
+    width: 35%;
+    height: 100%;
+    background: #5eadd2;
+}
+
+.modal-add .content-modal-1 .body .col .body-active .body-1 .slides a.slide .left .image {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-add .content-modal-1 .body .col .body-active .body-1 .slides a.slide .left .image img {
+    width: 70%;
+    height: 70%;
+}
+
+.modal-add .content-modal-1 .body .col .body-active .body-1 .slides a.slide .right {
+    width: 75%;
+    height: 100%;
+    padding-top: 10px;
+}
+
+.modal-add .content-modal-1 .body .col .body-active .body-1 .slides a.slide .right .name,
+.modal-add .content-modal-1 .body .col .body-active .body-1 .slides a.slide .right .name-1 {
+    width: 100%;
+    height: 30px;
+}
+
+.modal-add .content-modal-1 .body .col .body-active .body-1 .slides a.slide .right .name h4 {
+    font-size: 16px;
+}
+
+.modal-add .content-modal-1 .body .col .body-active .body-1 .slides a.slide .right .name-1 span {
+    font-size: 14px;
+}
+
+.modal-add .content-modal-1 .body .col.active {
+    width: 400px;
+    height: 600px;
+}
+
+.modal-add .content-modal-1 .body .col .body-active-cercle {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.modal-add .content-modal-1 .body .col .body-active-cercle .cercle {
+    width: 100px;
+    height: 100px;
+    margin-top: 50px;
+    border-radius: 50%;
+    border: 4px solid #f3f1f1;
+}
+
+.modal-add .content-modal-1 .body .col .body-active-cercle .cercle.c1 {
+    border-top: 4px solid #408071;
+    animation: 2s cercle infinite;
+    transition: 5s infinite;
+}
+
+.modal-add .content-modal-1 .body .col .body-active-cercle .cercle.c2 {
+    border-left: 4px solid #408071;
+    animation: 2s cercle infinite;
+    transition: 5s infinite;
+}
+
+.modal-add .content-modal-1 .body .col .body-active-cercle .cercle.c3 {
+    border-right: 4px solid #408071;
+    animation: 2s cercle infinite;
+    transition: 5s infinite;
+}
+
+@keyframes cercle {
+    0% {
+        transform: rotate(0);
+    }
+
+    100% {
+        transform: rotate(320deg);
+    }
+}
+
+.modal-add .content-modal-1 .body .col .body-active .top-2 {
+    width: 100%;
+    height: 90px;
+}
+
+.modal-add .content-modal-1 .body .col .body-active .top-2 .image {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-add .content-modal-1 .body .col .body-active .top-2 .image img {
+    width: 90%;
+    height: 90%;
+}
+
+.modal-add .content-modal-1 .body .col .body-active .top-2 .image .icon {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-add .content-modal-1 .body .col .body-active .top-2 .image .icon i {
+    width: 80px;
+    height: 80px;
+    background: #5eadd2;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    color: #f1f3f3;
+}
+
+.modal-add .content-modal-1 .body .col .body-active .body-2 {
+    width: 100%;
+    height: 60px;
+    margin-top: 20px;
+}
+
+.modal-add .content-modal-1 .body .col .body-active .body-2 .detail {
+    width: 100%;
+    height: 100%;
+}
+
+.modal-add .content-modal-1 .body .col .body-active .body-2 .detail .name,
+.modal-add .content-modal-1 .body .col .body-active .body-2 .detail .name-1 {
+    width: 100%;
+    height: 30px;
+}
+
+.modal-add .content-modal-1 .body .col .body-active .body-2 .detail .name h4 {
+    font-size: 16px;
+}
+
+.modal-add .content-modal-1 .body .col .body-active .body-2 .detail .name-1 span {
+    font-size: 14px;
+}
+
+.modal-add .content-modal-1 .body .col .body-3,
+.modal-add .content-modal-1 .body .col.active .body-3 {
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+}
+
+.modal-add .content-modal-1 .body .col .body-3 .links,
+.modal-add .content-modal-1 .body .col.active .body-3 .links {
+    width: 100%;
+    height: 80%;
+    display: grid;
+}
+
+.modal-add .content-modal-1 .body .col .body-3 .links a.link,
+.modal-add .content-modal-1 .body .col.active .body-3 .links a.link {
+    width: 120px;
+    height: 80px;
+    background: #b2ddec;
+    text-decoration: none;
+    color: #080808;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 60px;
+    border-radius: 20px;
+}
+
+.modal-add .content-modal-1 .body .col .body-3 .links a.link {
+    margin-top: 30px;
+    margin-left: 10px;
+}
+
+.modal-add .content-modal-1 .body .col.active .body-3 .links a.link:hover {
+    border: 2px solid #f1f3f3;
+}
+
+.modal-add .content-modal-1 .body .col.active .body-active .body-4 {
+    width: 100%;
+    height: 100%;
+    margin-top: 30px;
+    padding: 0 10px;
+}
+
+.modal-add .content-modal-1 .body .col.active .body-active .body-4 .slides {
+    width: 100%;
+    height: 77%;
+}
+
+.modal-add .content-modal-1 .body .col.active .body-active .body-4 .slides a.slide-link {
+    width: 100%;
+    height: 100px;
+    background: #408071;
+    display: flex;
+    gap: 10px;
+    text-decoration: none;
+    color: #080808;
+    border-radius: 15px;
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+
+.modal-add .content-modal-1 .body .col.active .body-active .body-4 .slides a.slide-link:hover {
+    border: 2px solid #f1f3f3;
+}
+
+.modal-add .content-modal-1 .body .col.active .body-active .body-4 .slides a.slide-link .left-1 {
+    width: 35%;
+    height: 100%;
+}
+
+.modal-add .content-modal-1 .body .col.active .body-active .body-4 .slides a.slide-link .left-1 .image {
+    width: 100%;
+    height: 100%;
+    background: #5eadd2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    color: #f1f3f3;
+}
+
+.modal-add .content-modal-1 .body .col.active .body-active .body-4 .slides a.slide-link .right-1 {
+    width: 75%;
+    height: 100%;
+    padding-top: 10px;
+}
+
+.modal-add .content-modal-1 .body .col.active .body-active .body-4 .slides a.slide-link .right-1 .detail {
+    width: 100%;
+    height: 100%;
+}
+
+.modal-add .content-modal-1 .body .col.active .body-active .body-4 .slides a.slide-link .right-1 .detail .name {
+    width: 100%;
+    height: auto;
+    min-height: 35px;
+}
+
+.modal-add .content-modal-1 .body .col.active .body-active .body-4 .slides a.slide-link .right-1 .detail .name h4 {
+    font-size: 16px;
+}
+
+.modal-add .content-modal-1 .body .col.active .body-active .body-4 .slides a.slide-link .right-1 .detail .name-1 span {
+    font-size: 14px;
+}
+
+.modal-add .content-modal-1 .body .col.active .body-active .body-4 .slides a.slide-link .right-1 .detail .name-1 {
+    width: 100%;
+    height: 35px;
+}
+
+.modal-add .content-modal-1 .body .col.active .body-center {
+    width: 100%;
+    height: 100%;
+}
+
+.modal-add .content-modal-1 .body .col.active .body-center .text {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-add .content-modal-1 .body .col.active .body-center .text p {
+    font-size: 16px;
+    font-style: bold;
+}
+
+.modal-add .content-modal-1 .body .col.active .body-center .button {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-add .content-modal-1 .body .col.active .body-center .button a {
+    width: 150px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #5eadd2;
+    border-radius: 15px;
+    color: #f1f3f3;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+/* .modal-add .content-modal-1 .body .col .body-active div {
+    width: 80%;
+}
+
+.modal-add .content-modal-1 .body .col .body-active div .image {
+    width: 100%;
+    height: 90px;
+    border-radius: 5px;
+    background: #480909;
+
+}
+
+.modal-add .content-modal-1 .body .col .body-active div .image img {
+    width: 100%;
+    height: 100%;
+}
+
+.modal-add .content-modal-1 .body .col.active {
+    width: 400px;
+    height: 600px;
+}
+
+.modal-add .content-modal-1 .body .col .body-active .center-send {
+    margin-top: 20px;
+    padding: 0 20px;
+}
+
+.modal-add .content-modal-1 .body .col .body-active .center-send .search {
+    display: flex;
+    gap: 20px;
+}
+
+.modal-add .content-modal-1 .body .col .body-active .center-send .search input {
+    width: 230px;
+    height: 30px;
+    background: #480909;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    color: #ffffff;
+}
+
+.modal-add .content-modal-1 .body .col .body-active .center-send .search button {
+    width: 35px;
+    height: 35px;
+    background: #480909;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+
+.modal-add .content-modal-1 .body .col .body-active div .info {
+    margin-top: 20px;
+    width: 100%;
+    font-size: 14px;
+} */
+
+
+.content .right .livres .add .return {
+    position: absolute;
+    right: 0;
+    margin-right: 5px;
+}
+
+.content .right .livres .add .return a {
+    font-size: 12px;
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+
+.content .right .livres .add .form  {
+    height: 350px;
+    background: lightblue;
+}
+
+.content .right .livres .add .form  {
+    height: 400px;
+    background: lightblue;
+    display: flex;
+    margin-top: 30px;
+}
+
+.content .right .livres .add .form .image  {
+    width: 400px;
+    height: auto;
+    background: blue;
+}
+
+.content .right .livres .add .form .data  {
+    width: 100%;
+    padding: 20px;
+}
+
+.content .right .livres .add .form .data .form-group  {
+    width: 100%;
+    height: 50px;
+    margin-bottom: 20px;
+    display: grid;
+}
+
+.content .right .livres .add .form .data .form-group label  {
+    margin-bottom: 10px;
+}
+
+.content .right .livres .add .form .data .form-group input  {
+    width: 100%;
+    height: 30px;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+}
+
+.content .right .livres .add .form .data .form-group select  {
+    width: 100%;
+    height: 30px;
+    border: none;
+    border-radius: 8px;
+    padding: 5px 10px;
+}
+
+.content .right .livres .add .form .data .submit {
+    margin-top: 50px;
+}
+
+.content .right .livres .add .form .data .form-group button  {
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 8px;
+    background: green;
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+} 
+
+
+.content .right .row-2 {
+    width: 100%;
+    height: auto;
+    min-height: 300px;
+    background: #f3f1f1;
+    margin-top: 30px;
+    overflow: hidden;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.content .right .row-2 .search-data,
+.content .right .row-listes-livres-2 .search-data {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+    height: 50px;
+    background: #5eadd2;
+    border-radius: 15px;
+}
+
+.content .right .row-2 .search-data .input-search input,
+.content .right .row-listes-livres-2 .search-data input {
+    width: 300px;
+    height: 30px;
+    background: #5b96ae;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    padding: 0 30px;
+    font-size: 14px;
+    color: #080808;
+}
+
+.content .right .row-2 .search-data .button-search button,
+.content .right .row-listes-livres-2 .search-data button {
+    width: 50px;
+    height: 30px;
+    background: #5b96ae;
+    color: #f3f1f1;
+    border-radius: 20px;
+    border: none;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.content .right .row-2 .livres-liens {
+    width: 100%;
+    height: 200px;
+    margin-top: 30px;
+    background: #b2ddec;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.content .right .row-2 .livres-liens .option-title-1 {
+  width: 100%;
+  height: 40px;
+  padding: 10px 20px;
+  background: #5eadd2;
+}
+
+.content .right .row-2 .livres-liens .liens {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+    height: 100%;
+}
+
+.content .right .row-2 .livres-liens .liens a {
+    width: 200px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #f3f1f1;
+    border-radius: 10px;
+    text-decoration: none;
+    color: #080808;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.content .right .row-2 .row-last-books {
+    width: 100%;
+    height: auto;
+    min-height: 400px;
+    background: #b2ddec;
+    margin-top: 30px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.content .right .row-2 .row-last-books .title-last-book {
+    width: 100%;
+    height: 40px;
+    padding: 10px 20px;
+    background: #5eadd2;
+    position: relative;
+}
+
+.content .right .row-2 .row-last-books .title-last-book h3  {
+    font-size: 18px;
+    color: #080808;
+}
+
+.content .right .row-2 .row-last-books .title-last-book .close  {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.content .right .row-2 .row-last-books .title-last-book .close a  {
+   font-size: 14px;
+   font-weight: 400;
+   color: #f3f1f1;
+   text-decoration: none;
+}
+
+.content .right .row-2 .row-last-books .body-last-books {
+    width: 94%;
+    height: auto;
+    min-height: 300px;
+    background: #5eadd2;
+    margin: 30px;
+    padding-top: 20px;
+}
+
+.content .right .row-2 .row-last-books .body-last-books .slides {
+    width: 100%;
+    position: relative;
+}
+
+.content .right .row-2 .row-last-books .body-last-books .slides .en-cours-detail {
+    width: 100%;
+    height: 350px;
+    background: #f3f1f1;
+    padding: 20px 50px;
+    margin-top: -20px;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.content .right .row-2 .row-last-books .body-last-books .slides .en-cours-detail .top {
+    width: 100%;
+    height: 80%;
+    display: flex;
+    gap: 20px;
+}
+
+.content .right .row-2 .row-last-books .body-last-books .slides .en-cours-detail .close {
+    position: absolute;
+    top: 5px;
+    right: 0;
+    margin-right: 20px;
+}
+
+.content .right .row-2 .row-last-books .body-last-books .slides .en-cours-detail .close a {
+    text-decoration: none;
+    color: #080808;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.content .right .row-2 .row-last-books .body-last-books .slides .en-cours-detail .col-image {
+    width: 200px;
+    height: 100%;
+    background: #5eadd2;
+}
+
+.content .right .row-2 .row-last-books .body-last-books .slides .en-cours-detail .col-image .image {
+    width: 100%;
+    height: 100%;
+}
+
+.content .right .row-2 .row-last-books .body-last-books .slides .en-cours-detail .col-image .image img {
+    width: 100%;
+    height: 100%;
+}
+
+.content .right .row-2 .row-last-books .body-last-books .slides .en-cours-detail .col-1 {
+    width: 250px;
+    height: 100%;
+    background: #5eadd2;
+}
+
+.content .right .row-2 .row-last-books .body-last-books .slides .en-cours-detail .col-1 .title-2 {
+    width: 100%;
+    height: 35px;
+    background: #5b96ae;
+    display: flex;
+    gap: 10px;
+    padding: 5px 10px;
+}
+
+.content .right .row-2 .row-last-books .body-last-books .slides .en-cours-detail .col-1 .title-2 .icon {
+    width: 20px;
+    height: 20px;
+    color: #f3f1f1;
+    font-size: 16px;
+}
+
+.content .right .row-2 .row-last-books .body-last-books .slides .en-cours-detail .col-1 .title-2 .title {
+    width: 100%;
+    height: 20px;
+    color: #080808;
+    font-size: 16px;
+}
+
+.content .right .row-2 .row-last-books .body-last-books .slides .en-cours-detail .col-1 .body-2 {
+    width: 100%;
+    height: 75%;
+    margin-top: 30px;
+    padding: 10px 20px;
+    font-size: 12px;
+    background: #5b96ae;
+}
+
+.content .right .row-2 .row-last-books .body-last-books .slides .en-cours-detail .col-1 .body-2 .name-1 {
+    width: 100%;
+    height: auto;
+    min-height: 25px;
+    margin-bottom: 5px;
+}
+
+.content .right .row-2 .row-last-books .body-last-books .slides .en-cours-detail .bottom {
+    width: 100%;
+    height: 40px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.content .right .row-2 .row-last-books .body-last-books .slides .en-cours-detail .bottom .links {
+    width: 60%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.content .right .row-2 .row-last-books .body-last-books .slides .en-cours-detail .bottom .links a {
+    width: 120px;
+    height: 30px;
+    background: #5b96ae;
+    color: #080808;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    border-radius: 15px;
+}
+
+.content .right .row-2 .row-last-books .body-last-books .slides .carousel {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.content .right .row-2 .row-last-books .body-last-books .slides .slide {
+    width: 260px;
+    height: 320px;
+    background: #f3f1f1;
+    border-radius: 10px;
+}
+
+.content .right .row-2 .row-last-books .body-last-books .slides .slide .image {
+    width: 100%;
+    height: 180px;
+    background: #5b96ae;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content .right .row-2 .row-last-books .body-last-books .slides .slide .image img {
+    width: 150px;
+    height: 150px;
+}
+
+
+.content .right .row-2 .row-last-books .body-last-books .slides .slide .infos,
+.content .right .row-2 .row-last-books .body-last-books .slides .slide .infos-1 {
+    margin-top: 20px;
+    padding: 20px;
+    width: 100%;
+}
+
+.content .right .row-2 .row-last-books .body-last-books .slides .slide .infos-1 {
+    margin-top: 10px;
+    width: 100%;
+    display: flex;
+    gap: 10px;
+}
+
+.content .right .row-2 .row-last-books .body-last-books .slides .slide .infos-1 .col-2 {
+    width: 50%;
+    height: 100px;
+}
+
+.content .right .row-2 .row-last-books .body-last-books .slides .slide .infos-1 .col-2.book-1 .title-2,
+.content .right .row-2 .row-last-books .body-last-books .slides .slide .infos-1 .col-2.user-1 .title-2 {
+    display: flex;
+    align-items: center;
+}
+
+.content .right .row-2 .row-last-books .body-last-books .slides .slide .infos-1 .col-2.book-1 .title-2 .icon,
+.content .right .row-2 .row-last-books .body-last-books .slides .slide .infos-1 .col-2.user-1 .title-2 .icon {
+   font-size: 14px;
+   width: 30px;
+   height: 30px;
+   border-radius: 50%;
+   background: #5b96ae;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   color: #f3f1f1;
+}
+
+.content .right .row-2 .row-last-books .body-last-books .slides .slide .infos-1 .col-2.book-1 .title-2 .title,
+.content .right .row-2 .row-last-books .body-last-books .slides .slide .infos-1 .col-2.user-1 .title-2 .title {
+    font-size: 16px;
+    margin-left: 10px;
+ }
+
+ .content .right .row-2 .row-last-books .body-last-books .slides .slide .infos-1 .detail {
+    width: 100%;
+    height: 50px;
+    margin-top: 20px;
+ }
+
+ .content .right .row-2 .row-last-books .body-last-books .slides .slide .infos-1 .detail .name-1 {
+    width: 100%;
+    height: 25px;
+ }
+
+ .content .right .row-2 .row-last-books .body-last-books .slides .slide .infos-1 .detail .lecture-1 {
+   display: flex;
+   width: 100%;
+    height: 25px;
+ }
+
+ .content .right .row-2 .row-last-books .body-last-books .slides .slide .infos-1 .detail .lecture-1 p {
+    margin-left: 120px;
+  }
+
+ .content .right .row-2 .row-last-books .body-last-books .slides .slide .infos-1 .detail .name-1 h4,
+ .content .right .row-2 .row-last-books .body-last-books .slides .slide .infos-1 .detail .name-1 h4 p {
+   font-size: 12px;
+ }
+
+ .content .right .row-2 .row-last-books .body-last-books .slides .carousel-1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+ .content .right .row-2 .row-last-books .body-last-books .slides .slide-1 {
+    width: 250px;
+    height: 260px;
+    background: wheat;
+ }
+
+ .content .right .row-2 .row-last-books .body-last-books .slides .slide-1 .image {
+    width: 100%;
+    height: 120px;
+    background: #5b96ae;
+ }
+
+ .content .right .row-2 .row-last-books .body-last-books .slides .slide-1 .image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+ }
+
+ .content .right .row-2 .row-last-books .body-last-books .slides .slide-1 a.infos-2 {
+    margin-top: 10px;
+    width: 100%;
+    height: 100px;
+    display: block;
+    text-decoration: none;
+    color: #080808;
+    padding: 10px 20px;
+ }
+
+ .content .right .row-2 .row-last-books .body-last-books .slides .slide-1 a.infos-2 h4.name-1 {
+    width: 100%;
+    height: 25px;
+    font-size: 14px;
+ }
+
+ .content .right .row-2 .row-last-books .body-last-books .slides .slide-1 a.infos-2 p.p {
+    width: 100%;
+    height: 25px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+ }
+
+ .content .right .row-2 .row-last-books .body-last-books .slides .slide-1 a.infos-2 p.p span.name-2 {
+    width: 100px;
+    height: 35px;
+ }
+
+ .content .right .row-2 .row-last-books .body-last-books .slides .slide-1 a.link {
+    width: 100%;
+    height: 30px;
+    display: flex;
+    background: #f3f1f1;
+    justify-content: center;
+    align-items: center;
+    color: #080808;
+    text-decoration: none;
+    font-size: 12px;
+ }
+
+.content .right .row-2 .row-last-books .body-last-books .slides .pagination-2 {
+    top: 50%;
+    transform: translateY(-50%);
+    position: absolute;
+    display: flex;
+}
+
+.content .right .row-2 .row-last-books .body-last-books .slides .pagination-2 button.btn-left-1 {
+    position: absolute;
+    left: 20px;
+}
+
+
+.content .right .row-2 .row-last-books .body-last-books .slides .pagination-2 button.btn-right-1 {
+    position: absolute;
+    left: 930px;
+}
+
+.content .right .row-2 .row-last-books .body-last-books .slides .pagination-2 button.btn-left-1,
+.content .right .row-2 .row-last-books .body-last-books .slides .pagination-2 button.btn-right-1 {
+    width: 30px;
+    height: 30px;
+    background: #5eadd2;
+    border: none;
+    font-size: 12px;
+    color: #f3f1f1;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.content .right .row-2 .row-last-books .body-last-books .slides .pagination-3 {
+    width: 100%;
+    height: 40px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.content .right .row-2 .row-last-books .body-last-books .slides .pagination-3 .pags {
+    width: 300px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.content .right .row-2 .row-last-books .body-last-books .slides .pagination-3 .pags .pag-1 {
+    width: 10px;
+    height: 10px;
+    background: black;
+    border-radius: 50%;
+    border: none;
+}
+
+.content .right .row-2 .row-last-books .body-last-books .slides .pagination-3 .pags .pag-1.active {
+    border: 1px solid #f3f1f1;
+}
+
+
+
+.content .right .row-2 .row-last-books .body-last-books .row-options-matieres {
+    padding: 30px;
+    position: relative;
+    width: 100%;
+}
+
+.content .right .row-2 .row-last-books .body-last-books .row-options-matieres .col-mat {
+    width: 300px;
+    height: 40px;
+    background: #f3f1f1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    border-radius: 20px;
+}
+
+.content .right .row-2 .row-last-book .body-last-books .row-options-matieres .col-mat label {
+  margin-left: 20px;
+  width: 150px;
+}
+
+.content .right .row-2 .row-last-books .body-last-books .row-options-matieres .col-voir-plus-1 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-right: 30px;
+    margin-top: 40px;
+}
+
+.content .right .row-2 .row-last-books .body-last-books .row-options-matieres .col-voir-plus-1 a {
+    width: 100px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #f3f1f1;
+    border-radius: 20px;
+    text-decoration: none;
+    color: #080808;
+    font-size: 14px;
+}
+
+.content .right .row-2 .row-last-books .body-last-books .row-pagination-1 {
+    width: 100%;
+    height: 60px;
+    background: #5b96ae;
+}
+
+.content .right .row-2 .row-last-books .body-last-books .row-pagination-1 .paginations-1 {
+    display: flex;
+} 
+
+.content .right .row-2 .row-last-books .body-last-books .row-pagination-1 .paginations-1 .page {
+    width: auto;
+    min-width: 200px;
+    height: 60px;
+    background: #f3f1f1;
+    position: relative;
+    overflow: hidden;
+} 
+
+.content .right .row-2 .row-last-books .body-last-books .row-pagination-1 .paginations-1 .page.active::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 10px;
+    background: #080808;
+} 
+
+.content .right .row-2 .row-last-books .body-last-books .row-pagination-1 .paginations-1 .page a {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: #080808;
+    font-size: 14px;
+} 
+
+
+.content .right .row-2 .row-last-books .body-last-books .row-slides-plus {
+    width: 100%;
+    height: auto;
+    min-height: 400px;
+    display: flex;
+    padding: 20px;
+    gap: 40px;
+}
+
+.content .right .row-2 .row-last-books .body-last-books .row-slides-plus .col-left-pag {
+    width: 300px;
+    background: black;
+    display: inline;
+    border-radius: 20px;
+    padding: 15px;
+}
+
+.content .right .row-2 .row-last-books .body-last-books .row-slides-plus .col-left-pag .image {
+    width: 100%;
+    height: 80%;
+    background: white;
+    border-radius: 10px;
+}
+
+.content .right .row-2 .row-last-books .body-last-books .row-slides-plus .col-left-pag .image img {
+    width: 100%;
+    height: 100%;
+}
+
+.content .right .row-2 .row-last-books .body-last-books .row-slides-plus .col-left-pag .change-page {
+    width: 100%;
+    height: 60px;
+    background: white;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+
+.content .right .row-2 .row-last-books .body-last-books .row-slides-plus .col-left-pag .change-page .slide-pagination-2  {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.content .right .row-2 .row-last-books .body-last-books .row-slides-plus .col-left-pag .change-page .slide-pagination-2 .carousel  {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.content .right .row-2 .row-last-books .body-last-books .row-slides-plus .col-left-pag .change-page .slide-pagination-2 .pag {
+    width: 25px;
+    height: 25px;
+    background: #408071;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    font-size: 10px;
+}
+
+.content .right .row-2 .row-last-books .body-last-books .row-slides-plus .col-left-pag .change-page .slide-pagination-2 .pag.active {
+    background: #000000;
+}
+
+.content .right .row-2 .row-last-books .body-last-books .row-slides-plus .col-left-pag .change-page .slide-pagination-2 .pagination {
+    position: absolute;
+    top: 40%;
+    transform: translateX(-40%);
+}
+
+.content .right .row-2 .row-last-books .body-last-books .row-slides-plus .col-left-pag .change-page .slide-pagination-2 .pagination .btn-left-2 {
+    position: absolute;
+    left: 20px;
+}
+
+.content .right .row-2 .row-last-books .body-last-books .row-slides-plus .col-left-pag .change-page .slide-pagination-2 .pagination .btn-right-2 {
+    position: absolute;
+    left: 150px;
+}
+
+.content .right .row-2 .row-last-books .body-last-books .row-slides-plus .col-left-pag .change-page .slide-pagination-2 .pagination .btn-left-2,
+.content .right .row-2 .row-last-books .body-last-books .row-slides-plus .col-left-pag .change-page .slide-pagination-2 .pagination .btn-right-2 {
+    width: 18px;
+    height: 18px;
+    background: #483d3d;
+    border-radius: 50px;
+    border: none;
+    font-size: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.content .right .row-2 .row-last-books .body-last-books .row-slides-plus .col-right-infos {
+    width: 100%;
+    background: black;
+    display: block;
+    border-radius: 25px;
+    padding: 15px;
+}
+
+.content .right .row-2 .row-last-books .body-last-books .row-slides-plus .col-right-infos .slides-1 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.content .right .row-2 .row-last-books .body-last-books .row-slides-plus .col-right-infos .slides-1 .slide-1 {
+    width: 200px;
+    height: 200px;
+    background: white;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.content .right .row-2 .row-last-books .body-last-books .row-slides-plus .col-right-infos .slides-1 .slide-1 .image {
+    width: 100%;
+    height: 100px;
+    background: lightblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content .right .row-2 .row-last-books .body-last-books .row-slides-plus .col-right-infos .slides-1 .slide-1 .image img {
+    width: 80px;
+    height: 80px; 
+}
+
+.content .right .row-2 .row-last-books .body-last-books .row-slides-plus .col-right-infos .slides-1 .slide-1 .infos-book {
+    width: 100%;
+    height: 50px;
+    background: lightblue;
+    margin-top: 20px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content .right .row-2 .row-last-books .body-last-books .row-slides-plus .col-right-infos .slides-1 .slide-1 .infos-book .book-name {
+   font-size: 16px;
+}
+
+.content .right .row-listes-livres-1,
+.content .right .row-listes-livres-2 {
+    position: relative;
+    width: 100%;
+    height: auto;
+    min-height: 500px;
+    background: #408071;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.content .right .row-listes-livres-1 .carousels-top {
+    width: 100%;
+    height: 450px;
+    background: #b2ddec;
+}
+
+.content .right .row-listes-livres-1 .carousels-top .slides {
+    width: 100%;
+    height: 480px;
+    background: #5b96ae;
+    display: flex;
+    justify-content: center;
+}
+
+.content .right .row-listes-livres-1 .carousels-top .slides .carousel {
+    width: 450px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content .right .row-listes-livres-1 .carousels-top .slides .carousel .slide-content {
+    width: 400px;
+    height: 100%;
+    background: #b2ddec;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content .right .row-listes-livres-1 .carousels-top .slides .carousel .slide-content .slide {
+    width: 80%;
+    height: 95%;
+    background: #080808;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.content .right .row-listes-livres-1 .carousels-top .slides .carousel .slide-content .slide .top {
+    width: 100%;
+    height: 300px;
+    background: white;
+}
+
+.content .right .row-listes-livres-1 .carousels-top .slides .carousel .slide-content .slide .top .data-livres-2 {
+    width: 100%;
+    height: 100%;
+    background: #408071;
+}
+
+.content .right .row-listes-livres-1 .carousels-top .slides .carousel .slide-content .slide .top .data-livres-2 .image {
+    width: 100%;
+    height: 200px;
+    background: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content .right .row-listes-livres-1 .carousels-top .slides .carousel .slide-content .slide .top .data-livres-2 .image img {
+    width: 80%;
+    height: 80%;
+    object-fit: cover;
+}
+
+.content .right .row-listes-livres-1 .carousels-top .slides .carousel .slide-content .slide .top .data-livres-2 .infos-4 {
+    padding: 20px;
+}
+
+.content .right .row-listes-livres-1 .carousels-top .slides .carousel .slide-content .slide .top .data-livres-2 .infos-4 .name-livre-2,
+.content .right .row-listes-livres-1 .carousels-top .slides .carousel .slide-content .slide .top .data-livres-2 .infos-4 .name-matiere-2 {
+    width: 100%;
+    height: 30px;
+    background: #ffffff;
+    margin-bottom: 10px;
+    font-size: 14px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content .right .row-listes-livres-1 .carousels-top .slides .carousel .slide-content .slide .center {
+    width: 100%;
+    height: 80px;
+    background: #408071;
+    margin-top: 20px;
+    display: flex;
+    gap: 10px;
+    padding: 10px;
+}
+
+.content .right .row-listes-livres-1 .carousels-top .slides .carousel .slide-content .slide .center .c-col {
+    width: 45%;
+    height: 80%;
+    position: relative;
+}
+
+.content .right .row-listes-livres-1 .carousels-top .slides .carousel .slide-content .slide .center .c-col h4 {
+    width: 100%;
+    height: 25px;
+    background: lightblue;
+    border-radius: 5px;
+    padding: 0 10px;
+    font-size: 14px;
+}
+
+.content .right .row-listes-livres-1 .carousels-top .slides .carousel .slide-content .slide .center .c-col span {
+    position: absolute;
+    top: 30px;
+    right: 0;
+    margin-right: 20px;
+}
+
+.content .right .row-listes-livres-1 .carousels-bottom {
+    position: absolute;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.content .right .row-listes-livres-1 .carousels-bottom .slides {
+    width: 500px;
+    height: 120px;
+    background: #408071;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    border-radius: 20px;
+}
+
+.content .right .row-listes-livres-1 .carousels-bottom .slides .slide {
+    width: 70px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content .right .row-listes-livres-1 .carousels-bottom .slides .slide button.btn-image {
+    width: 40px;
+    height: 40px;
+    background: white;
+    border-radius: 50%;
+    border: none;
+}
+
+.content .right .row-listes-livres-1 .carousels-bottom .slides .slide button.btn-image img {
+    width: 65%;
+    height: 65%;
+}
+
+.content .right .row-listes-livres-1 .carousels-bottom .slides .slide button.btn-image.active {
+    transform: scale(1.5);
+    border: 2px solid lightblue;
+}
+
+.content .right .row-listes-livres-1 .carousels-bottom .slides .slide button.btn-image.active img {
+    width: 70%;
+    height: 70%;
+}
+
+.content .right .row-listes-livres-2 {
+    margin-top: 150px;
+}
+
+.content .right .row-listes-livres-2 .row-data-livres-all {
+    width: 100%;
+    height: auto;
+    min-height: 200px;
+    background: orange;
+    margin-top: 40px;
+}
+
+.content .right .row-listes-livres-2 .row-data-livres-all .slides {
+    width: 100%;
+    height: 100%;
+    background: #f3f1f1;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 10px;
+}
+
+.content .right .row-listes-livres-2 .row-data-livres-all .slides .slide {
+    width: 330px;
+    height: 120px;
+    background: #408071;
+    border-radius: 10px;
+    display: flex;
+    gap: 10px;
+    padding: 10px;
+}
+
+.content .right .row-listes-livres-2 .row-data-livres-all .slides .slide .left-3 {
+    width: 130px;
+    height: 100%;
+    background: white;
+    border-radius: 15px;
+}
+
+.content .right .row-listes-livres-2 .row-data-livres-all .slides .slide .left-3 .image {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content .right .row-listes-livres-2 .row-data-livres-all .slides .slide .left-3 .image img {
+    width: 80%;
+    height: 80%;
+}
+
+.content .right .row-listes-livres-2 .row-data-livres-all .slides .slide .right-3 {
+    width: 100%;
+    height: 100%;
+    background: white;
+    padding: 10px;
+}
+
+
+
+.content .right .row-listes-livres-2 .row-data-livres-all .slides .slide .right-3 a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.content .right .row-listes-livres-2 .row-data-livres-all .slides .slide .right-3 a h4 {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.content .right .row-listes-livres-2 .row-data-livres-all .slides .slide .right-3 a h4 {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.content .right .row-listes-livres-2 .row-data-livres-all .slides .slide .right-3 a span.span-matiere {
+    font-size: 14px;
+}
+
+.content .right .row-listes-livres-2 .row-data-livres-all .slides .slide .right-3 a p {
+    margin-top: 10px;
+    font-size: 12px;
+    display: flex;
+    justify-content: space-between;
+}

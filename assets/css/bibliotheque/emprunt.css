@@ -1,0 +1,324 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: #ffffff;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.content {
+    width: 100%;
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #bfb4b4;
+}
+
+.content .modal-add-emprunt {
+    width: 950px;
+    height: 700px;
+    background: #480909;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.content .modal-add-emprunt .top  {
+    width: 100%;
+    height: 40px;
+    background: black;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content .modal-add-emprunt .top .close  {
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin-top: 7px;
+    margin-right: 15px;
+}
+
+.content .modal-add-emprunt .top .close  a {
+   color: #ffffff;
+   font-size: 15px;
+   font-weight: 600;
+   text-decoration: none;
+}
+
+.content .modal-add-emprunt .body-add-data  {
+    display: flex;
+    gap: 30px;
+    margin-top: 40px;
+    padding: 0 30px;
+}
+
+.content .modal-add-emprunt .body-add-data .col.active  {
+    width: 400px;
+    height: 600px;
+}
+
+.content .modal-add-emprunt .body-add-data .col {
+    width: 250px;
+    height: 250px;
+    background: #c86d0e;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.content .modal-add-emprunt .body-add-data .col .body-active div .image {
+    width: 100%;
+    height: 90px;
+    border-radius: 5px;
+    background: #480909;
+}
+
+.content .modal-add-emprunt .body-add-data .col .body-active div .image img {
+    width: 100%;
+    height: 100%;
+}
+
+.content .modal-add-emprunt .body-add-data .col .body-active div {
+    width: 80%;
+}
+
+.content .modal-add-emprunt .body-add-data .col .body-active div .info {
+    margin-top: 20px;
+    width: 100%;
+    font-size: 14px;
+}
+
+/* .content .modal-add-emprunt .body-add-data .col .body-active div .info div {
+   display: flex;
+   justify-content: center;
+} */
+
+.content .modal-add-emprunt .body-add-data .col .body-active div .info div .title-livre {
+    width: 100%;
+    font-size: 16px;
+ }
+
+
+.content .modal-add-emprunt .body-add-data .col.active .body-active .center-send {
+    margin-top: 20px;
+    padding: 0 20px;
+}
+
+.content .modal-add-emprunt .body-add-data .col.active .body-active .search {
+    display: flex;
+    gap: 20px;
+}
+
+.content .modal-add-emprunt .body-add-data .col.active .body-active .search input {
+    width: 230px;
+    height: 30px;
+    background: #480909;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    color: #ffffff;
+}
+
+
+.content .modal-add-emprunt .body-add-data .col.active .body-active .search button {
+    width: 35px;
+    height: 35px;
+    background: #480909;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+
+.content .modal-add-emprunt .body-add-data .col.active .body-active .livres {
+    margin-top: 20px;
+}
+
+.content .modal-add-emprunt .body-add-data .col.active .body-active .livres .livre {
+    width: 100%;
+    height: 100px;
+    background: beige;
+    border-radius: 5px;
+    display: flex;
+    gap: 20px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.content .modal-add-emprunt .body-add-data .col.active .body-active .livres .livre .livre-left {
+    width: 100px;
+    height: 100%;
+    background: grey;
+    border-radius: 5px;
+}
+
+.content .modal-add-emprunt .body-add-data .col.active .body-active .livres .livre .livre-left .image {
+    width: 100px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content .modal-add-emprunt .body-add-data .col.active .body-active .livres .livre .livre-left .image img {
+    width: 50px;
+    height: 50px;
+}
+
+
+.content .modal-add-emprunt .body-add-data .col.active .body-active .livres .livre .livre-right {
+    width: 200px;
+    height: 100%;
+    background: grey;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.content .modal-add-emprunt .body-add-data .col.active .body-active .livres .livre .livre-right .title-livre {
+    font-size: 14px;
+}
+
+.content .modal-add-emprunt .body-add-data .col.active .body-active .livres .livre .livre-right .matiere-livre {
+    margin-top: 10px;
+    font-size: 12px;
+}
+
+
+.content .modal-add-emprunt .body-add-data .col .body-active {
+    width: 100%;
+    height: 73%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content .modal-add-emprunt .body-add-data .col .body-active .cercle {
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    border: 7px solid black;
+    border-top: 7px solid red;
+    animation: 2s cercle infinite;
+    transition: 2s infinite;
+}
+
+.content .modal-add-emprunt .body-add-data .col .body-active .cercle.c-left {
+    border-left: 7px solid red;
+}
+
+.content .modal-add-emprunt .body-add-data .col .body-active .cercle.c-right {
+    border-right: 7px solid red;
+}
+
+.content .modal-add-emprunt .body-add-data .col.active .body-active .select-personne {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+.content .modal-add-emprunt .body-add-data .col.active .body-active .select-personne .personnes .personne,
+.content .modal-add-emprunt .body-add-data .col .body-active .select-personne .personnes .personne {
+    width: 150px;
+    height: 100px;
+    background: black;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.content .modal-add-emprunt .body-add-data .col.active .body-active .center-perso-send {
+    width: 80%;
+    margin-top: 100px;
+}
+
+.content .modal-add-emprunt .body-add-data .col.active .body-active .center-perso-send .listes-personnes {
+    width: 100%;
+    margin-top: 30px;
+}
+
+.content .modal-add-emprunt .body-add-data .col.active .body-active .center-perso-send .listes-personnes .liste-personne {
+    width: 100%;
+    display: flex;
+    gap: 20px;
+    height: 70px;
+    background: black;
+    padding: 9px;
+    border-radius: 9px;
+    margin-bottom: 10px;
+}
+
+.content .modal-add-emprunt .body-add-data .col.active .body-active .center-perso-send .listes-personnes .liste-personne .image {
+    width: 50px;
+    height: 50px;
+}
+
+.content .modal-add-emprunt .body-add-data .col.active .body-active .center-perso-send .listes-personnes .liste-personne .info-perso .name-perso,
+.content .modal-add-emprunt .body-add-data .col .body-active .center-perso-send .listes-personnes .liste-personne .info-perso .name-perso {
+   font-size: 16px;
+   margin-bottom: 10px;
+}
+
+.content .modal-add-emprunt .body-add-data .col.active .body-active .center-perso-send .listes-personnes .liste-personne .info-perso .number-perso,
+.content .modal-add-emprunt .body-add-data .col .body-active .center-perso-send .listes-personnes .liste-personne .info-perso .number-perso {
+    font-size: 14px;
+ }
+
+.content .modal-add-emprunt .body-add-data .col .body-active .center-perso-send .listes-personnes .liste-personne .info-perso {
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.content .modal-add-emprunt .body-add-data .col.active .body-active.terminer {
+    display: block;
+    margin: 20px;
+    width: 85%;
+}
+
+.content .modal-add-emprunt .body-add-data .col.active .body-active.terminer .text {
+    width: 100%;
+   height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+}
+
+.content .modal-add-emprunt .body-add-data .col.active .body-active.terminer .submit-emprunt {
+    width: 100%;
+    height: 40px;
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.content .modal-add-emprunt .body-add-data .col.active .body-active.terminer .submit-emprunt button {
+   width: 70%;
+   height: 100%;
+   background: #277627;
+    border: none;
+    outline: none;
+    color: white;
+    border-radius: 10px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+
+@keyframes cercle {
+    0% {
+        transform: rotate(0);
+    }
+
+    0% {
+        transform: rotate(320deg);
+    }
+}
+
